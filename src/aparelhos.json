@@ -28,7 +28,7 @@
 		"IPAD PRO 1 (11)":"ipad/iPad_pro1-11.png",
 		"IPAD PRO 3 (11)":"ipad/iPad_pro3-11.png"
 	},
-	"iphone-frente": {
+	"iphoneFrente": {
 		"IPHONE 11 PM":"vidro-frente/IPHONE_11_PM.png",
 		"IPHONE 12 Mini":"vidro-frente/IPHONE_12_Mini.png",
 		"IPHONE 12 PRO":"vidro-frente/IPHONE_12_PRO.png",
@@ -49,7 +49,7 @@
 		"IPHONE 8 P":"vidro-frente/IPHONE_8_P.png",
 		"IPHONE XS MAX":"vidro-frente/IPHONE_XS_MAX.png"
 	},
-	"iphone-tampa": {
+	"iphoneTampa": {
 		"IPHONE 11 PM":"tampa-iphone/IPHONE_11_PM.png",
 		"IPHONE 11 Pro":"tampa-iphone/IPHONE_11_Pro.png",
 		"IPHONE 12 PM":"tampa-iphone/IPHONE_12_PM.png",

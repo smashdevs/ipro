@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { SearchIcon, ChevronRightIcon, ChevronDownIcon } from '@chakra-ui/icons'
 import {
   ChakraProvider,
@@ -9,6 +9,7 @@ import {
   HStack,
   Stack,
   Grid,
+  Flex,
   GridItem,
   Select,
   Image,
@@ -18,36 +19,86 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import theme from "./theme";
 import myData from './aparelhos.json';
 
-const versoes = [
-"IPHONE 11",
-"IPHONE 7",
-"IPHONE 7P",
-"IPHONE 8",
-"IPHONE 8P",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-"IPHONE X",
-];
-
-const image = "assets/images/"+myData.watch["WATCH SE"];
 
 function App() {
   
-  const [value, setValue] = React.useState("")
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setValue(event.target.value)
+  const [image, setImage] = useState("assets/images/"+myData.iphoneFrente["IPHONE 12 Mini"]);
+  const [aparelho, setAparelho] = React.useState("")
+  const [tipo, setTipo] = React.useState("ipad")
+  const [versao, setVersao] = React.useState("ipad")
+  const [vidroSelect, setVidroSelect] = React.useState(true);
+  const [versaoSelect, setVersaoSelect] = React.useState(true);
+
+  useEffect((aparelho) => {
+    
+  });
+  
+  const handleAparelhoChange = (event) => {
+    setAparelho(event.target.value)
+    switch(event.target.value){
+      case '':
+        setVidroSelect(true);
+        setVersaoSelect(true);
+      break;
+      case 'iphone':
+        setVidroSelect(false);
+        setVersaoSelect(true);
+      break;
+      case 'ipad':
+        setVidroSelect(true);
+        setVersaoSelect(false);
+        setTipo('ipad');
+      break;
+      case 'watch':
+        setVidroSelect(true);
+        setVersaoSelect(false);
+        setTipo('watch');
+      break;
+      default:
+        setVidroSelect(true);
+        setVersaoSelect(false);
+      break
+    }
   }
+  
+  const handleTipoChange = (event) => {
+    console.log(event.target.value)
+    switch(event.target.value){
+      case '':
+        setVersaoSelect(true);
+      break;
+      case 'iphoneFrente':
+        setVersaoSelect(false);
+        setTipo(event.target.value);
+        setVersao()
+      break;
+      case 'iphoneTampa':
+        setVersaoSelect(false);
+        setTipo(event.target.value);
+      break;
+      default:
+        setVidroSelect(true);
+        setVersaoSelect(false);
+      break
+    }
+  }
+
+  const handleVersaoChange = (event) => {
+    setVersao(event.target.value);
+    setImage("assets/images/"+myData[tipo][event.target.value]);
+    console.log("assets/images/"+myData[tipo][event.target.value])
+  }
+
 
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" color="white" fontSize="xl" 
       backgroundImage="url('https://miro.medium.com/max/1400/1*8mNNZuvAjFWcFCcqEDMUpQ.png')">
+          <style>{`
+            select, select:focus, select:focus-visible, select:active {
+              background-color: white !important;
+            }
+        `}</style>
           <VStack minH="100vh">
             <Box height={{
                   base: '100%', // 0-48em
@@ -62,18 +113,13 @@ function App() {
                 ]}
                 py="2"
                 >
-                <style global jsx>{`
-                  select, select:focus, select:focus-visible, select:active {
-                    background-color: white !important;
-                  }
-              `}</style>
                 <Grid templateColumns='repeat(3, 1fr)'>
                   <GridItem w="full" px="4" colSpan="3" py="4">
                     <Text>QUAL O SEU APARELHO?</Text>
                   </GridItem>
                   <GridItem px="2">
                     <Select 
-                      value={value} onChange={handleChange}
+                      value={aparelho} onChange={handleAparelhoChange}
                       variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
                       bordercolor="ligthgray" size="xs" placeholder="APARELHO">
                       <option value='iphone'>IPHONE</option>
@@ -81,17 +127,21 @@ function App() {
                       <option value='ipad'>IPAD</option>
                     </Select>
                   </GridItem>
-                  <GridItem px="2"> 
-                    <Select variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
-                      bordercolor="ligthgray" size="xs" placeholder="VIDRO">
-                      <option value='iphone-frente'>FRONTAL</option>
-                      <option value='iphone-tampa'>TRASEIRO</option>
+                  <GridItem px="2" hidden={vidroSelect}> 
+                    <Select 
+                      value={tipo} onChange={handleTipoChange}
+                      variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
+                      bordercolor="ligthgray" size="xs" placeholder="VIDRO" isDisabled={vidroSelect} textAlign="center">
+                      <option value='iphoneFrente'>FRONTAL</option>
+                      <option value='iphoneTampa'>TRASEIRO</option>
                     </Select>
                   </GridItem> 
                   <GridItem px="2">
-                    <Select variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
-                      bordercolor="ligthgray" size="xs" placeholder="VERSÃO">
-                      {Object.keys(myData.watch).map((key) => (
+                    <Select 
+                      value={versao} onChange={handleVersaoChange}
+                      variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
+                      bordercolor="ligthgray" size="xs" placeholder="VERSÃO" isDisabled={versaoSelect} hidden={versaoSelect} textAlign="center">
+                      {Object.keys(myData[tipo]).map((key) => (
                         <option key={key} value={key}>
                           {key}
                         </option>
