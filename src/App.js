@@ -22,17 +22,14 @@ import myData from './aparelhos.json';
 
 function App() {
   
-  const [image, setImage] = useState("assets/images/"+myData.iphoneFrente["IPHONE 12 Mini"]);
+  const [image, setImage] = useState("/assets/images/"+myData.iphoneFrente[Object.keys(myData.iphoneFrente).shift()].image);
   const [aparelho, setAparelho] = React.useState("")
   const [tipo, setTipo] = React.useState("ipad")
   const [versao, setVersao] = React.useState("ipad")
+  const [valor, setValor] = React.useState("00,00")
   const [vidroSelect, setVidroSelect] = React.useState(true);
   const [versaoSelect, setVersaoSelect] = React.useState(true);
 
-  useEffect((aparelho) => {
-    
-  });
-  
   const handleAparelhoChange = (event) => {
     setAparelho(event.target.value)
     switch(event.target.value){
@@ -85,10 +82,15 @@ function App() {
 
   const handleVersaoChange = (event) => {
     setVersao(event.target.value);
-    setImage("assets/images/"+myData[tipo][event.target.value]);
-    console.log("assets/images/"+myData[tipo][event.target.value])
+    setImage("/assets/images/"+myData[tipo][event.target.value].image);
+    setValor(myData[tipo][event.target.value].value);
+    console.log("/assets/images/"+myData[tipo][event.target.value].image);
   }
 
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    console.log(queryString,urlParams.get("tipo"),urlParams.set("tipo2","5"),)
+    console.log(queryString,urlParams.get("tipo"))
 
   return (
     <ChakraProvider theme={theme}>
@@ -127,7 +129,7 @@ function App() {
                       <option value='ipad'>IPAD</option>
                     </Select>
                   </GridItem>
-                  <GridItem px="2" hidden={vidroSelect}> 
+                  <GridItem px="2"> 
                     <Select 
                       value={tipo} onChange={handleTipoChange}
                       variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
@@ -140,7 +142,7 @@ function App() {
                     <Select 
                       value={versao} onChange={handleVersaoChange}
                       variant="filled" fontWeight="bold" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
-                      bordercolor="ligthgray" size="xs" placeholder="VERSÃO" isDisabled={versaoSelect} hidden={versaoSelect} textAlign="center">
+                      bordercolor="ligthgray" size="xs" placeholder="VERSÃO" isDisabled={versaoSelect} textAlign="center">
                       {Object.keys(myData[tipo]).map((key) => (
                         <option key={key} value={key}>
                           {key}
@@ -155,7 +157,7 @@ function App() {
             </Center>
             <Box mt="0" w="full">
                 <Text>TROCA DE VIDRO</Text>
-                <Text fontSize="6xl">R$ 259,90</Text>
+                <Text fontSize="6xl">R$ {valor}</Text>
                 <Text>EM ATÉ 12X S/ JUROS</Text>
             </Box>
             <Box w="full" pt="4">
