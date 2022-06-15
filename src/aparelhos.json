@@ -2,303 +2,376 @@
 	"ipad": {
 		"IPAD 1": {
 			"image": "ipad/iPad_1.png",
-			"value": "549,90"
+			"value": "549,90",
+			"info" : ""
 		},
 		"IPAD 2": {
 			"image": "ipad/iPad_1.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : ""
 		},
 		"IPAD 3": {
 			"image": "ipad/iPad_3.png",
-			"value": "649,90"
+			"value": "649,90",
+			"info" : ""
 		},
 		"IPAD 4": {
 			"image": "ipad/iPad_4.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : ""
 		},
 		"IPAD 5": {
 			"image": "ipad/iPad_5.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : ""
 		},
 		"IPAD 6": {
 			"image": "ipad/iPad_6.png",
-			"value": "649,90"
+			"value": "649,90",
+			"info" : ""
 		},
 		"IPAD 7": {
 			"image": "ipad/iPad_7.png",
-			"value": "799,90"
+			"value": "799,90",
+			"info" : ""
 		},
 		"IPAD 8": {
 			"image": "ipad/iPad_8.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : ""
 		},
 		"IPAD AIR 1": {
 			"image": "ipad/iPad_air-1.png",
-			"value": "299,90"
+			"value": "299,90",
+			"info" : ""
 		},
 		"IPAD AIR 2": {
 			"image": "ipad/iPad_air-2.png",
-			"value": "499,90"
+			"value": "499,90",
+			"info" : ""
 		},
 		"IPAD AIR 3": {
 			"image": "ipad/iPad_air-3.png",
-			"value": "999,90"
+			"value": "999,90",
+			"info" : ""
 		},
 		"IPAD AIR 4": {
 			"image": "ipad/iPad_air4.png",
-			"value": "1099,90"
+			"value": "1099,90",
+			"info" : ""
 		},
 		"IPAD MINI": {
 			"image": "ipad/iPad_mini_.png",
-			"value": "299,90"
+			"value": "299,90",
+			"info" : ""
 		},
 		"IPAD MINI 2 (MIN)": {
 			"image": "ipad/iPad_mini_2-min.png",
-			"value": "399,90"
+			"value": "399,90",
+			"info" : ""
 		},
 		"IPAD MINI 3 (MIN)": {
 			"image": "ipad/iPad_mini_3-min.png",
-			"value": "499,90"
+			"value": "499,90",
+			"info" : ""
 		},
 		"IPAD MINI 4 (MIN)": {
 			"image": "ipad/iPad_mini_4-min.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : ""
 		},
 		"IPAD MINI 5 (MIN)": {
 			"image": "ipad/iPad_mini_5-min.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : ""
 		},
 		"IPAD PRO 1 (9.7)": {
 			"image": "ipad/ipad-pro1-9.7.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : ""
 		},
 		"IPAD PRO 1 (10.5)": {
 			"image": "ipad/iPad_pro1-10.5.png",
-			"value": "999,90"
+			"value": "999,90",
+			"info" : ""
 		},
 		"IPAD PRO 1 (11)": {
 			"image": "ipad/iPad_pro1-11.png",
-			"value": "999,90"
+			"value": "999,90",
+			"info" : ""
 		},
 		"IPAD PRO 1 (12,9)": {
 			"image": "ipad/iPad_pro1-12,9.png",
-			"value": "1099,90"
+			"value": "1099,90",
+			"info" : ""
 		},
 		"IPAD PRO 2 (12,90)": {
 			"image": "ipad/iPad-pro2-12,90.png",
-			"value": "1599,90"
+			"value": "1599,90",
+			"info" : ""
 		},
 		"IPAD PRO 3 (11)": {
 			"image": "ipad/iPad_pro3-11.png",
-			"value": "1999,90"
+			"value": "1999,90",
+			"info" : ""
 		},
 		"IPAD PRO 3 (12,9)": {
 			"image": "ipad/iPad_pro3.12,9.png",
-			"value": "2199,90"
+			"value": "2199,90",
+			"info" : ""
 		},
 		"IPAD PRO 4 (12,9)": {
 			"image": "ipad/iPad_pro4-12,9.png",
-			"value": "2199,90"
+			"value": "2199,90",
+			"info" : ""
 		},
 		"IPAD PRO 5 (12,9)": {
 			"image": "ipad/iPad_pro5-12,9.png",
-			"value": "2399,90"
+			"value": "2399,90",
+			"info" : ""
 		}
 	},
 	"iphoneFrente": {
 		"IPHONE 7": {
 			"image": "vidro-frente/IPHONE_7.png",
-			"value": "249,90"
+			"value": "249,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 7 consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 7 ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 7 e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 7 P": {
 			"image": "vidro-frente/IPHONE_7_P.png",
-			"value": "299,90"
+			"value": "299,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone 8 consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone 8 ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone 8 e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 8": {
 			"image": "vidro-frente/IPHONE_8.png",
-			"value": "349,90"
+			"value": "349,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone 8 Plus consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone 8 Plus ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone 8 Plus e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 8 P": {
 			"image": "vidro-frente/IPHONE_8_P.png",
-			"value": "399,90"
+			"value": "399,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone 8 Plus consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone 8 Plus ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone 8 Plus e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE X": {
 			"image": "vidro-frente/IPHONE_X.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone X consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone X ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone X e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE XR": {
 			"image": "vidro-frente/IPHONE_XR.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone XR consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone XR ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone XR e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE XS": {
 			"image": "vidro-frente/IPHONE_XS.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone XS consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone XS ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone XS e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE XS MAX": {
 			"image": "vidro-frente/IPHONE_XS_MAX.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do iPhone XS Max consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO iPhone XS Max ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO iPhone XS Max e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 11": {
 			"image": "vidro-frente/IPHONE_11.png",
-			"value": "799,90"
+			"value": "799,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 11 consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 11 ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 11 e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 11 PRO": {
 			"image": "vidro-frente/IPHONE_11_PRO.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 11 Pro consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 11 Pro ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 11 Pro e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
-		"IPHONE 11 PM": {
+		"IPHONE 11 PRO MAX": {
 			"image": "vidro-frente/IPHONE_11_PM.png",
-			"value": "949,90"
+			"value": "949,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 11 Pro Max consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 11 Pro Max ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 11 Pro Max e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 12": {
 			"image": "vidro-frente/IPHONE_12.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 12 consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 12 ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 12 e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
-		"IPHONE 12 PM": {
+		"IPHONE 12 PRO MAX": {
 			"image": "vidro-frente/IPHONE_12_PM.png",
-			"value": "999,90"
+			"value": "999,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 12 Pro Max consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 12 Pro Max ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 12 Pro Max e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 12 PRO": {
 			"image": "vidro-frente/IPHONE_12_PRO.png",
-			"value": "999,90"
+			"value": "999,90",
+			"info" : "A iPro é especialista Premium em TROCA DE VIDRO. Mas, você sabe diferenciar a TROCA DE VIDRO da TROCA DE TELA? A iPro te explica! A troca de vidro do Iphone 12 Pro consiste em removermos apenas a camada de vidro que fica acima do LCD. O LCD é o responsável por fornecer a imagem, cores e toque (touch). Portanto, o vidro tem função apenas estética e de proteção do LCD. Sendo assim, para que possamos trocar apenas o vidro, é importante que a tela esteja totalmente operacional, acendendo, com touch respondendo e sem manchas. Exceções: Pequenas manchas que não interferem na utilização permitem que o processo seja realizado. Já os casos de TROCA DE TELA DO IPHONE 12 Pro ocorrem quando o LCD (imagem ou touch) foram afetados, causando grandes manchas ou impossibilidade de funcionamento do toque. Agora que você já sabe a diferença entre TROCA DE VIDRO DO IPHONE 12 Pro e TROCA DE TELA, confira os benefícios de realizar o serviço com a iPro"
 		},
 		"IPHONE 12 Mini": {
 			"image": "vidro-frente/IPHONE_12_Mini.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : ""
 		},
 		"IPHONE 13": {
 			"image": "vidro-frente/IPHONE_13.png",
-			"value": "1199,90"
+			"value": "1199,90",
+			"info" : ""
 		},
 		"IPHONE 13 Mini": {
 			"image": "vidro-frente/IPHONE_13_Mini.png",
-			"value": "256,90"
+			"value": "256,90",
+			"info" : ""
 		},
 		"IPHONE 13 Pro": {
 			"image": "vidro-frente/IPHONE_13_Pro.png",
-			"value": "1149,90"
+			"value": "1149,90",
+			"info" : ""
 		},
 		"IPHONE 13 PM": {
 			"image": "vidro-frente/IPHONE_13.PM.png",
-			"value": "1299,90"
+			"value": "1299,90",
+			"info" : ""
 		}
 	},
 	"iphoneTampa": {
 		"IPHONE 11 PM": {
 			"image": "tampa-iphone/IPHONE_11_PM.png",
-			"value": "749,90"
+			"value": "749,90",
+			"info" : ""
 		},
 		"IPHONE 11 Pro": {
 			"image": "tampa-iphone/IPHONE_11_Pro.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : ""
 		},
 		"IPHONE 12 PM": {
 			"image": "tampa-iphone/IPHONE_12_PM.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : ""
 		},
 		"IPHONE 12 Pro": {
 			"image": "tampa-iphone/IPHONE_12_Pro.png",
-			"value": "849,90"
+			"value": "849,90",
+			"info" : ""
 		},
 		"IPHONE 8 plus": {
 			"image": "tampa-iphone/IPHONE_8-plus.png",
-			"value": "349,90"
+			"value": "349,90",
+			"info" : ""
 		},
 		"IPHONE X": {
 			"image": "tampa-iphone/IPHONE_X.png",
-			"value": "499,90"
+			"value": "499,90",
+			"info" : ""
 		},
 		"IPHONE XS Max": {
 			"image": "tampa-iphone/IPHONE_XS_Max.png",
-			"value": "499,90"
+			"value": "499,90",
+			"info" : ""
 		},
 		"IPHONE 11": {
 			"image": "tampa-iphone/IPHONE_11.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : ""
 		},
 		"IPHONE 12 mini": {
 			"image": "tampa-iphone/IPHONE_12_mini.png",
-			"value": "849,90"
+			"value": "849,90",
+			"info" : ""
 		},
 		"IPHONE 12": {
 			"image": "tampa-iphone/IPHONE_12.png",
-			"value": "849,90"
+			"value": "849,90",
+			"info" : ""
 		},
 		"IPHONE 13": {
 			"image": "tampa-iphone/IPHONE_13.png",
-			"value": "1199,90"
+			"value": "1199,90",
+			"info" : ""
 		},
 		"IPHONE 13 mini": {
 			"image": "tampa-iphone/IPHONE_13.png",
-			"value": "1199,90"
+			"value": "1199,90",
+			"info" : ""
 		},
 		"IPHONE 13 PRO": {
 			"image": "tampa-iphone/IPHONE_13.png",
-			"value": "1149,90"
+			"value": "1149,90",
+			"info" : ""
 		},
 		"IPHONE 13 PM": {
 			"image": "tampa-iphone/IPHONE_13.png",
-			"value": "1299,90"
+			"value": "1299,90",
+			"info" : ""
 		},
 		"IPHONE 8": {
 			"image": "tampa-iphone/iphone_8.png",
-			"value": "299,90"
+			"value": "299,90",
+			"info" : ""
 		},
 		"IPHONE XR": {
 			"image": "tampa-iphone/IPHONE_XR.png",
-			"value": "499,90"
+			"value": "499,90",
+			"info" : ""
 		},
 		"IPHONE XS": {
 			"image": "tampa-iphone/IPHONE_XS.png",
-			"value": "499,90"
+			"value": "499,90",
+			"info" : ""
 		}
 	},
 	"watch": {
 		"WATCH 2": {
 			"image": "watch/Watch2.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : ""
 		},
 		"WATCH 3": {
 			"image": "watch/watch3.png",
-			"value": "599,90"
+			"value": "599,90",
+			"info" : ""
 		},
 		"WATCH 4": {
 			"image": "watch/watch4.png",
-			"value": "949,90"
+			"value": "949,90",
+			"info" : ""
 		},
 		"WATCH 5": {
 			"image": "watch/watch5.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : ""
 		},
 		"WATCH 6": {
 			"image": "watch/watch6.png",
-			"value": "749,90"
+			"value": "749,90",
+			"info" : ""
 		},
 		"WATCH 7": {
 			"image": "watch/watch7.png",
-			"value": "899,90"
+			"value": "899,90",
+			"info" : ""
 		},
 		"WATCH SE": {
 			"image": "watch/watchSE.png",
-			"value": "699,90"
+			"value": "699,90",
+			"info" : ""
 		}
 	},
 	"placeholder": {
 		"ipadpreco": {
 			"image": "placeholder/ipadpreco.png",
-			"value": null
+			"value": null,
+			"info" : ""
 		},
 		"iphonepreco": {
 			"image": "placeholder/iphonepreco.png",
-			"value": null
+			"value": null,
+			"info" : ""
 		},
 		"versoiphone": {
 			"image": "placeholder/versoiphone.png",
-			"value": null
+			"value": null,
+			"info" : ""
 		},
 		"watchpreco": {
 			"image": "placeholder/watchpreco.png",
-			"value": null
+			"value": null,
+			"info" : ""
 		}
 	},
 	"detalhes" : {"items":[

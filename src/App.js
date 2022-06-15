@@ -181,24 +181,14 @@ function App() {
             }
         `}</style>
           <VStack minH="100vh">
-            <Box height={{
-                  base: '100%', 
-                  md: '50%', 
-                  xl: '25%', 
-                }}
-                width={[
-                  '100%', 
-                  '50%', 
-                  '25%', 
-                  '15%', 
-                ]}
-                py="2"
-                >
-                <Grid templateColumns='repeat(3, 1fr)'>
-                  <GridItem w="full" px="4" colSpan="3" py="4">
+            <Box
+                 width={[ '100%', '100%', '100%', '100%' ]}
+                 py="2">
+                <Grid templateColumns={{ base: 'repeat(3, 1fr)', sm: 'repeat(6, 1fr)', md: 'repeat(6, 1fr)', lg: 'repeat(6, 1fr)', xl: 'repeat(6, 1fr)', '2xl': 'repeat(6, 1fr)' }}>
+                  <GridItem px="4" colSpan={{ base: '3', sm: '3', md: '3', lg: '0', xl: '0', '2xl': '0' }} py="2">
                     <Text fontSize="3xl">QUAL O SEU APARELHO?</Text>
                   </GridItem>
-                  <GridItem px="2">
+                  <GridItem px="2" py={{ base: '0', sm: '3', md: '3', lg: '3', xl: '3', '2xl': '3' }}>
                     <Select className="tadaoBold"
                       value={aparelho} onChange={handleAparelhoChange}
                       variant="filled" fontSize="sm" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
@@ -208,7 +198,7 @@ function App() {
                       <option value='ipad'>IPAD</option>
                     </Select>
                   </GridItem>
-                  <GridItem px="2"> 
+                  <GridItem px="2" py={{ base: '0', sm: '3', md: '3', lg: '3', xl: '3', '2xl': '3' }}> 
                     <Select className="tadaoBold" 
                       value={tipo} onChange={handleTipoChange}
                       variant="filled" fontSize="sm" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" 
@@ -217,7 +207,7 @@ function App() {
                       <option value='iphoneTampa'>TRASEIRO</option>
                     </Select>
                   </GridItem> 
-                  <GridItem px="2">
+                  <GridItem px="2" py={{ base: '0', sm: '3', md: '3', lg: '3', xl: '3', '2xl': '3' }}>
                     <Select className="tadaoBold" value={versao} onChange={handleVersaoChange} variant="filled" fontSize="sm" focusBorderColor="white" icon={<ChevronDownIcon pt="1" />} bg="white" color="black" bordercolor="ligthgray" size="xs" placeholder="VERSÃO" isDisabled={versaoSelect} textAlign="center">
                       {Object.keys(myData[tipo]).map((key) => (
                         <option key={key} value={key}>
@@ -228,29 +218,68 @@ function App() {
                   </GridItem> 
                 </Grid> 
             </Box>
-            <Center mt="0" minH="40vh" maxH="40vh" py="4" w="full" px="16">
-              <DetalhesModal items={myData.detalhes.items}/>
-              <Image src={image} minH="40vh" ml="-40px" maxH="40vh"/>
-            </Center>
-            <Box mt="4" pt="2px" w="full" hidden={ !viewValor }>
-                <Text className="tadaoBold" fontSize="4xl">TROCA DE VIDRO</Text>
-                <Text className="tadaoBold" fontSize="7xl">
-                  <span className="dolarSign">R$ </span> 
-                  {valor}
-                </Text>
-                <Text fontSize="3xl">EM ATÉ 12X S/ JUROS</Text>
-            </Box>
-            <Box mt="4" pt="2px" w="full" py="8" minH="150px" hidden={ viewValor }>
-                <Text className="tadaoBold" fontSize="3xl">TROCA DE VIDRO</Text>
-                <Text className="tadaoBold" fontSize="3xl">EM ATÉ 12X S/ JUROS</Text>
-            </Box>
-            <Box w="full" pt="4">
-                <Button className="tadaoBold" size="lg" fontSize="2xl" aria-label='Botão contato' rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                  Entre em contato
-                </Button>
-            </Box>
             <Box>
+              <Grid templateColumns={{ base: 'repeat(1, 1fr)', sm: 'repeat(3, 1fr)', md: 'repeat(3, 1fr)', lg: 'repeat(3, 1fr)', xl: 'repeat(3, 1fr)', '2xl': 'repeat(3, 1fr)' }}>
+                
+                {/* ======================================== */}
+                <GridItem mt="4" pt="2px" pl="4" w="full" hidden={ !viewValor }
+                  display={{ base: 'none', sm: 'block', md: 'block', lg: 'block', xl: 'block', '2xl': 'block' }}>
+                    <Text className="tadaoBold" 
+                    fontSize={{ base: '4xl', sm: '3xl', md: '3xl', lg: '3xl', xl: '3xl', '2xl': '3xl' }}>
+                      TROCA DE VIDRO
+                    </Text>
+                    <Text className="tadaoBold" fontSize="7xl">
+                      <span className="dolarSign">R$ </span> 
+                      {valor}
+                    </Text>
+                    <Text fontSize="3xl">EM ATÉ 12X S/ JUROS</Text>
+                </GridItem>
+                <GridItem mt="4" pt="2px" w="full" py="8" minH="150px" hidden={ viewValor } 
+                display={{ base: 'none', sm: 'block', md: 'block', lg: 'block', xl: 'block', '2xl': 'block' }}>
+                    <Text className="tadaoBold" fontSize="3xl">TROCA DE VIDRO</Text>
+                    <Text className="tadaoBold" fontSize="3xl">EM ATÉ 12X S/ JUROS</Text>
+                </GridItem>
+                {/* ======================================== */}
+                
+                <Center mt="0" 
+                minH={{ base: '40vh', sm: '70vh', md: '60vh', lg: '60vh', xl: '60vh', '2xl': '60vh' }}
+                maxH={{ base: '40vh', sm: '70vh', md: '60vh', lg: '60vh', xl: '60vh', '2xl': '60vh' }} 
+                w={{ base: 'full', sm: 'full', md: 'full', lg: 'full', xl: 'full', '2xl': 'full' }}
+                px="16">
+                  <DetalhesModal items={myData.detalhes.items}
+                    display={{ base: 'block', sm: 'none', md: 'none', lg: 'none', xl: 'none', '2xl': 'none' }}/>
+                  <DeviceImage src={image}/>
+                </Center>
 
+                <GridItem mr="2"
+                display={{ base: 'none', sm: 'block', md: 'block', lg: 'block', xl: 'block', '2xl': 'block' }}>
+                    <CollapsibleList items={myData.detalhes.items} index={-1}/>
+                </GridItem>
+
+                <GridItem mt="4" pt="2px" hidden={ !viewValor }
+                display={{ base: 'block', sm: 'none', md: 'none', lg: 'none', xl: 'none', '2xl': 'none' }}>
+                    <Text className="tadaoBold" fontSize="4xl">TROCA DE VIDRO</Text>
+                    <Text className="tadaoBold" fontSize="7xl">
+                      <span className="dolarSign">R$ </span> 
+                      {valor}
+                    </Text>
+                    <Text fontSize="3xl">EM ATÉ 12X S/ JUROS</Text>
+                </GridItem>
+                
+                <GridItem mt="4" pt="2px" w="full" py="8" minH="150px" hidden={ viewValor }
+                display={{ base: 'block', sm: 'none', md: 'none', lg: 'none', xl: 'none', '2xl': 'none' }}>
+                    <Text className="tadaoBold" fontSize="3xl">TROCA DE VIDRO</Text>
+                    <Text className="tadaoBold" fontSize="3xl">EM ATÉ 12X S/ JUROS</Text>
+                </GridItem>
+                
+                <GridItem w="full" pt="4"
+                display={{ base: 'block', sm: 'none', md: 'none', lg: 'none', xl: 'none', '2xl': 'none' }}>
+                    <Button className="tadaoBold" size="lg" fontSize="2xl" aria-label='Botão contato' rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                      Entre em contato
+                    </Button>
+                </GridItem>
+              
+              </Grid>
             </Box>
           </VStack>
       </Box>
@@ -260,9 +289,9 @@ function App() {
 
 export default App;
 
-function CollapsibleList({ items }) {
+function CollapsibleList({ items, index }) {
   return (
-      <Accordion defaultIndex={[0]} >{
+      <Accordion defaultIndex={[index]} allowToggle bg="white" color="black">{
     items.map((item,key)=>(
       <AccordionItem key={key}>
         <h2>
@@ -273,7 +302,7 @@ function CollapsibleList({ items }) {
             <AccordionIcon />
           </AccordionButton>
         </h2>
-        <AccordionPanel pb={4} textAlign="left">
+        <AccordionPanel pb={4} textAlign="left" maxH="100px" overflowY="auto">
           {item.texto}
         </AccordionPanel>
       </AccordionItem>
@@ -282,7 +311,7 @@ function CollapsibleList({ items }) {
   );
 }
 
-function DetalhesModal({ items }) {
+function DetalhesModal({ items, display }) {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   return (
@@ -292,6 +321,7 @@ function DetalhesModal({ items }) {
         icon={<AddIcon/>}
         left="200px"
         top="-120px"
+        display={display}
         >Open Modal</IconButton>
 
       <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} size="xs" isCentered={true}>
@@ -317,4 +347,13 @@ function Lorem() {
         Boy monofilament garage modem fluidity concrete 8-bit range-rover soul-delay warehouse gang pen. Construct hacker tube nano-systemic San Francisco RAF silent lights. Media sensory nano-post-physical boy dissident futurity disposable weathered free-market. Vehicle tank-traps dolphin dome industrial grade military-grade Tokyo wristwatch. Office semiotics youtube singularity motion assault long-chain hydrocarbons soul-delay. 
       </>
     )
+}
+
+function DeviceImage({ src }) {
+  
+  return (
+    <Image src={ src } 
+      minH={{ base: '40vh', sm: '', md: '60vh', lg: '60vh', xl: '60vh', '2xl': '60vh' }}
+      ml="-40px" maxH={{ base: '40vh', sm: '70vh', md: '60vh', lg: '60vh', xl: '60vh', '2xl': '60vh' }}/>
+                  )
 }
