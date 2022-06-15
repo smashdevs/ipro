@@ -282,5 +282,42 @@
 			"image": "watch/watchSE.png",
 			"value": "699,90"
 		}
+	},
+	"placeholder": {
+		"ipadpreco": {
+			"image": "placeholder/ipadpreco.png",
+			"value": null
+		},
+		"iphonepreco": {
+			"image": "placeholder/iphonepreco.png",
+			"value": null
+		},
+		"versoiphone": {
+			"image": "placeholder/versoiphone.png",
+			"value": null
+		},
+		"watchpreco": {
+			"image": "placeholder/watchpreco.png",
+			"value": null
+		}
+	},
+	"detalhes" : {"items":[
+		  {
+		    "nome": "Detalhes",
+		    "texto": "Voodoo god nodal point fluidity construct silent saturation point narrative sign modem into Legba marketing pen neural grenade. Tanto industrial grade geodesic concrete modem crypto-gang table free-market smart-sub-orbital man 3D-printed jeans spook computer cardboard."
+		  },
+		  {
+		    "nome": "Prazo",
+		    "texto": "15 dias"
+		  },
+		  {
+		    "nome": "Garantia",
+		    "texto": "3 meses"
+		  },
+		  {
+		    "nome": "Formas de pagamento",
+		    "texto": "Cheque, Cartão de crédito, Cartão debito"
+		  }
+		]
 	}
 }

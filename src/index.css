@@ -1,0 +1,29 @@
+@font-face {
+font-family: "TadaoRegular";
+src: local("Tadao Regular"),
+ url("./fonts/Tadao Regular.ttf") format("truetype");
+font-weight: bold;
+}
+
+@font-face {
+font-family: "TadaoBold";
+src: local("Tadao Bold"),
+ url("./fonts/Tadao Bold.ttf") format("truetype");
+font-weight: bold;
+}
+
+* {
+ font-family: "TadaoRegular";
+ font-weight: bold;
+}
+
+.tadaoBold {
+    font-family: "TadaoBold";
+    font-weight: bold;   
+}
+
+.dolarSign {
+    font-size: 30px; 
+    position: relative;
+    top: -25px;
+}
