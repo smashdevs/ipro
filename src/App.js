@@ -303,7 +303,9 @@ function CollapsibleList({ items, index }) {
           </AccordionButton>
         </h2>
         <AccordionPanel pb={4} textAlign="left" maxH="100px" overflowY="auto">
-          {item.texto}
+          {item.texto.split('\\n').map((i,k)=>(
+            <Text key={k} pb="3">{i}</Text>
+            ))}
         </AccordionPanel>
       </AccordionItem>
       ))}
